@@ -64,7 +64,7 @@ class MobileNavbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
-        children : <Widget>[
+        children :<Widget>[
           Text("Test WEB", style: TextStyle(
               fontWeight: FontWeight.bold, color: Colors.white, fontSize: 30
           ),),
