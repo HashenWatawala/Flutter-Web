@@ -70,7 +70,7 @@ class MobileNavbar extends StatelessWidget {
           ),),
 
           Padding(
-            padding: const EdgeInsets.all(12.0),
+            padding:  const EdgeInsets.all(12.0),
             child:  Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
