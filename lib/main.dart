@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:web_project/Landing%20Page/landingpage.dart';
 import 'package:web_project/Navbar/navbar.dart';
 
 void main() {
@@ -40,7 +41,8 @@ class MyHomePage extends StatelessWidget {
         ),
         child:Column(
           children: <Widget>[
-            Navbar()
+            Navbar(),
+            LandingPage()
           ],
         ),
       ),
