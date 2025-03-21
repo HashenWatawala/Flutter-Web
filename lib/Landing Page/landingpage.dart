@@ -31,7 +31,10 @@ class LandingPage extends StatelessWidget {
             )
           ],
         ),
-      )
+      ),
+      Image.asset("Assets/images/image.png",
+      width: 400,
+      height: 400,)
     ];
   }
 
